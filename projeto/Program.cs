@@ -4,20 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace projeto
+namespace Tabuleiro
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Posicao p;
+            p = new Posicao(1, 2);
 
-            Console.Write("Digite um valor inteiro: ");
+            Console.WriteLine(p);
 
-            int x = int.Parse(Console.ReadLine());
-
-            int y = 3 * x;
-
-            Console.WriteLine("Triplo = " + y);
 
             Console.ReadLine();
         }
