@@ -15,9 +15,9 @@ namespace projeto
 
             int x = int.Parse(Console.ReadLine());
 
-            int y = -2 * x;
+            int y = 3 * x;
 
-            Console.WriteLine("Dobro = " + y);
+            Console.WriteLine("Triplo = " + y);
 
             Console.ReadLine();
         }
